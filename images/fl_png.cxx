@@ -41,6 +41,7 @@ extern "C"
 }
 
 # include <stdlib.h>
+# include <string.h> // memcpy()
 
 static png_bytep cur_datas;
 
